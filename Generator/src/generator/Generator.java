@@ -27,7 +27,9 @@ public class Generator {
         List<String> listaImionM = new ArrayList<String>();
         List<String> listaImionF = new ArrayList<String>();
         List<String> listaNazwisk = new ArrayList<String>();
+        List<String> spec = new ArrayList<String>();
         List<Lekarz> lekarze = new ArrayList<Lekarz>();
+        
         String textLine;
         int sex;
         Random rand = new Random();
@@ -43,6 +45,10 @@ public class Generator {
         while ((textLine = br3.readLine()) != null) {
             listaImionF .add(textLine);
         }
+        BufferedReader br4 = new BufferedReader (new FileReader("spec.txt"));
+        while ((textLine = br4.readLine()) != null) {
+            spec .add(textLine);
+        }
         
         for (int i = 0; i<100;i++){
         lekarze.add(new Lekarz());
@@ -51,7 +57,9 @@ public class Generator {
         lekarze.get(i).setImie(listaImionM); 
         else
         lekarze.get(i).setImie(listaImionF); 
+        
         lekarze.get(i).setNazwisko(listaNazwisk, sex);
+        lekarze.get(i).setSpecjalizacja(spec);
         lekarze.get(i).setId(i+1);
         }
         

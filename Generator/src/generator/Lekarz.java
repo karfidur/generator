@@ -44,10 +44,19 @@ public class Lekarz {
      else
      this.nazwisko = randNazwisko.substring(0,randNazwisko.length()- 1) + "a";
     }
+     
+     public void setSpecjalizacja (List<String> specjalizacje){
+     Random rand = new Random();
+     int los = rand.nextInt(specjalizacje.size());
+     this.specjalizacja = specjalizacje.get(los); 
+     }
     
     
     public void wypisz(){
-    System.out.println(this.id + " " + this.imie + " " + this.nazwisko); 
+    System.out.println(this.id + " " + this.imie + " " + this.nazwisko + " Spec " + this.specjalizacja); 
     }
+    
+    
+    
 }
     
