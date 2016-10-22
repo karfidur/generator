@@ -1,0 +1,100 @@
+1 Bozena Jaworska Spec Patomorfologia
+2 Edward Szymanski Spec Dermatologia i wenerologia
+3 Roman Baranowski Spec Pediatria
+4 Wanda Szymczak Spec Otorynolaryngologia
+5 Krystyna Sikorska Spec Kardiologia
+6 Edyta Adamczyk Spec Okulistyka
+7 Damian Urbanski Spec Urologia
+8 Wieslawa Sawicka Spec Epidemiologia
+9 Jan Szulc Spec Chirurgia plastyczna
+10 Mateusz Michalski Spec Choroby wewn�trzne
+11 Piotr Zajac Spec Dermatologia i wenerologia
+12 Danuta Glowacka Spec Medycyna ratunkowa
+13 Stanislawa Pawlak Spec Medycyna ratunkowa
+14 Aneta Glowacka Spec Transfuzjologia kliniczna
+15 Krystyna Grabowska Spec Patomorfologia
+16 Mateusz Cieslak Spec Dermatologia i wenerologia
+17 Maria Mazur Spec Neonatologia
+18 Mariusz Wozniak Spec Radioterapia onkologiczna
+19 Stefania Dabrowska Spec Medycyna rodzinna
+20 Wojciech Laskowski Spec Chirurgia szcz�kowo-twarzowa
+21 Joanna Baran Spec Neurologia
+22 Zbigniew Grabowski Spec Psychiatria
+23 Sylwia Grabowska Spec Medycyna s�dowa
+24 Jozef Bak Spec Onkologia kliniczna
+25 Ewa Krajewska Spec Audiologia i foniatria
+26 Adam Kozlowski Spec Okulistyka
+27 Wieslawa Krajewska Spec Patomorfologia
+28 Izabela Maciejewska Spec Otorynolaryngologia
+29 Zbigniew Gajewski Spec Zdrowie Publiczne
+30 Robert Marciniak Spec Neurologia
+31 Marta Szczepanska Spec Psychiatria dzieci i m�odzie�y
+32 Jolanta Cieslak Spec Mikrobiologia lekarska
+33 Michal Lis Spec Choroby zaka�ne
+34 Wojciech Krol Spec Genetyka kliniczna
+35 Wieslaw Stepien Spec Rehabilitacja medyczna
+36 Janina Krol Spec Radiologia i diagnostyka obrazowa
+37 Wojciech Mazur Spec Chirurgia plastyczna
+38 Danuta Marciniak Spec Neonatologia
+39 Ryszard Urbanski Spec Chirurgia klatki piersiowej
+40 Stanislawa Pawlowska Spec Kardiologia
+41 Artur Olszewski Spec Choroby zaka�ne
+42 Henryk Zalewski Spec Chirurgia plastyczna
+43 Zofia Laskowska Spec Chirurgia dzieci�ca
+44 Maria Olszewska Spec Kardiologia
+45 Jozef Maciejewski Spec Po�o�nictwo i ginekologia
+46 Rafal Zawadzki Spec Okulistyka
+47 Janusz Stepien Spec Neurochirurgia
+48 Monika Krol Spec Okulistyka
+49 Jan Kucharski Spec Radiologia i diagnostyka obrazowa
+50 Janina Dudek Spec Choroby zaka�ne
+51 Stanislaw Jakubowski Spec Medycyna ratunkowa
+52 Mieczyslaw Wroblewski Spec Anestezjologia i intensywna terapia
+53 Agnieszka Jankowska Spec Choroby zaka�ne
+54 Jerzy Wozniak Spec Chirurgia szcz�kowo-twarzowa
+55 Wojciech Adamczyk Spec Kardiologia
+56 Agata Michalak Spec Medycyna rodzinna
+57 Justyna Glowacka Spec Neurologia
+58 Marcin Baranowski Spec Genetyka kliniczna
+59 Paulina Szczepanska Spec Kardiologia
+60 Janusz Stepien Spec Chirurgia dzieci�ca
+61 Tomasz Brzezinski Spec Okulistyka
+62 Tomasz Duda Spec Onkologia kliniczna
+63 Urszula Szymanska Spec Zdrowie Publiczne
+64 Jolanta Czarnecka Spec Medycyna rodzinna
+65 Ewelina Adamska Spec Patomorfologia
+66 Grazyna Sawicka Spec Chirurgia og�lna
+67 Wieslaw Adamski Spec Neurochirurgia
+68 Maciej Stepien Spec Choroby zaka�ne
+69 Piotr Maciejewski Spec Genetyka kliniczna
+70 Edward Glowacki Spec Chirurgia klatki piersiowej
+71 Stanislawa Wieczorek Spec Diagnostyka laboratoryjna
+72 Stanislaw Wysocki Spec Onkologia kliniczna
+73 Maria Krol Spec Genetyka kliniczna
+74 Zdzislaw Lewandowski Spec Neurologia
+75 Czeslaw Sikora Spec Psychiatria dzieci i m�odzie�y
+76 Roman Kowalski Spec Transfuzjologia kliniczna
+77 Jan Baran Spec Choroby zaka�ne
+78 Kazimiera Jakubowska Spec Choroby zaka�ne
+79 Beata Zajac Spec Choroby wewn�trzne
+80 Mariusz Szymczak Spec Kardiologia
+81 Barbara Krajewska Spec Neonatologia
+82 Magdalena Szymczak Spec Medycyna transportu
+83 Malgorzata Wroblewska Spec Onkologia kliniczna
+84 Malgorzata Sokolowska Spec Otorynolaryngologia
+85 Irena Szymczak Spec Psychiatria
+86 Edyta Sawicka Spec Chirurgia klatki piersiowej
+87 Grazyna Rutkowska Spec Medycyna pracy
+88 Michal Szewczyk Spec Audiologia i foniatria
+89 Wojciech Krol Spec Medycyna pracy
+90 Monika Sawicka Spec Genetyka kliniczna
+91 Tomasz Maciejewski Spec Radiologia i diagnostyka obrazowa
+92 Roman Sikorski Spec Medycyna s�dowa
+93 Waldemar Olszewski Spec Transfuzjologia kliniczna
+94 Beata Urbanska Spec Psychiatria
+95 Magdalena Krol Spec Medycyna ratunkowa
+96 Jerzy Wojciechowski Spec Chirurgia dzieci�ca
+97 Malgorzata Zielinska Spec Chirurgia szcz�kowo-twarzowa
+98 Agnieszka Cieslak Spec Medycyna nuklearna
+99 Aleksandra Marciniak Spec Ortopedia i traumatologia narz�du ruchu
+100 Rafal Nowicki Spec Pediatria

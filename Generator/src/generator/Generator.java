@@ -9,6 +9,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -33,6 +34,8 @@ public class Generator {
         String textLine;
         int sex;
         Random rand = new Random();
+      PrintWriter zapis = new PrintWriter("out.txt");
+  
         BufferedReader br = new BufferedReader (new FileReader("imionam.txt"));
         while ((textLine = br.readLine()) != null) {
             listaImionM.add(textLine);
@@ -64,7 +67,8 @@ public class Generator {
         }
         
   
-        for (Lekarz l : lekarze) l.wypisz();
+        for (Lekarz l : lekarze) l.wypisz(zapis);
+        zapis.close();
         
         // TODO code application logic here
     }

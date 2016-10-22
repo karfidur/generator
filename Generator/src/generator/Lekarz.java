@@ -7,6 +7,7 @@ package generator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -52,8 +53,8 @@ public class Lekarz {
      }
     
     
-    public void wypisz(){
-    System.out.println(this.id + " " + this.imie + " " + this.nazwisko + " Spec " + this.specjalizacja); 
+    public void wypisz(PrintWriter zapis){
+    zapis.println(this.id + " " + this.imie + " " + this.nazwisko + " Spec " + this.specjalizacja); 
     }
     
     
