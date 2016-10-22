@@ -1,12 +1,12 @@
 Anestezjologia i intensywna terapia
 Audiologia i foniatria
-Chirurgia dzieciêca
+Chirurgia dziecieca
 Chirurgia klatki piersiowej
-Chirurgia ogólna
+Chirurgia ogolna
 Chirurgia plastyczna
-Chirurgia szczêkowo-twarzowa
-Choroby wewnêtrzne
-Choroby zakaŸne
+Chirurgia szczekowo-twarzowa
+Choroby wewnetrzne
+Choroby zakazne
 Dermatologia i wenerologia
 Diagnostyka laboratoryjna
 Epidemiologia
@@ -17,7 +17,7 @@ Medycyna nuklearna
 Medycyna pracy
 Medycyna ratunkowa
 Medycyna rodzinna
-Medycyna s¹dowa
+Medycyna sadowa
 Medycyna transportu
 Mikrobiologia lekarska
 Neonatologia
@@ -25,13 +25,13 @@ Neurochirurgia
 Neurologia
 Okulistyka
 Onkologia kliniczna
-Ortopedia i traumatologia narz¹du ruchu
+Ortopedia i traumatologia narzadu ruchu
 Otorynolaryngologia
 Patomorfologia
 Pediatria
-Po³o¿nictwo i ginekologia
+Poloznictwo i ginekologia
 Psychiatria
-Psychiatria dzieci i m³odzie¿y
+Psychiatria dzieci i mlodziezy
 Radiologia i diagnostyka obrazowa
 Radioterapia onkologiczna
 Rehabilitacja medyczna
