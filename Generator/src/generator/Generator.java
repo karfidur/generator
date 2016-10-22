@@ -34,7 +34,7 @@ public class Generator {
         String textLine;
         int sex;
         Random rand = new Random();
-      PrintWriter zapis = new PrintWriter("out.txt");
+      PrintWriter zapis = new PrintWriter("out.sql");
   
         BufferedReader br = new BufferedReader (new FileReader("imionam.txt"));
         while ((textLine = br.readLine()) != null) {
