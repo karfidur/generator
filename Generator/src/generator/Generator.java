@@ -34,7 +34,7 @@ public class Generator {
         String textLine;
         int sex;
         Random rand = new Random();
-      PrintWriter zapis = new PrintWriter("out.sql");
+        PrintWriter zapis = new PrintWriter("out.sql  ");
   
         BufferedReader br = new BufferedReader (new FileReader("imionam.txt"));
         while ((textLine = br.readLine()) != null) {
@@ -60,7 +60,6 @@ public class Generator {
         lekarze.get(i).setImie(listaImionM); 
         else
         lekarze.get(i).setImie(listaImionF); 
-        
         lekarze.get(i).setNazwisko(listaNazwisk, sex);
         lekarze.get(i).setSpecjalizacja(spec);
         lekarze.get(i).setId(i+1);
