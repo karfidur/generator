@@ -81,31 +81,29 @@ public class Generator {
             if (i <= t0t1) {
                 lekarze.get(i).setDataZatrudnienia(beginDate, t1);
                 if (zwolniony == 1) {
-                lekarze.get(i).setDataZwolnienia(t1);
-            }
+                    lekarze.get(i).setDataZwolnienia(t1);
+                }
             } else {
                 lekarze.get(i).setDataZatrudnienia(t1, t2);
-                 if (zwolniony == 1) {
-                lekarze.get(i).setDataZwolnienia(t2);
+                if (zwolniony == 1) {
+                    lekarze.get(i).setDataZwolnienia(t2);
+                }
             }
-            }
-            
-             if (i == t0t1) {
+
+            if (i == t0t1) {
                 for (Lekarz l : lekarze) {
                     l.wypisz(zapist1);
                 }
                 zapist1.close();
             }
-             int losowanie;
-             losowanie = rand.nextInt(5);
-             if (losowanie == 1){
-                 losowanie = rand.nextInt(lekarze.size());
-                 lekarze.get(losowanie).setNazwisko(listaNazwisk);
-             }
-             
+            int losowanie;
+            losowanie = rand.nextInt(5);
+            if (losowanie == 1) {
+                losowanie = rand.nextInt(lekarze.size());
+                lekarze.get(losowanie).setNazwisko(listaNazwisk);
+            }
 
         }
-
         for (Lekarz l : lekarze) {
             l.wypisz(zapist2);
         }
