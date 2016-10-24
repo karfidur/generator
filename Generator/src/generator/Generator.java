@@ -46,11 +46,11 @@ public class Generator {
         }
          BufferedReader br3 = new BufferedReader (new FileReader("imionaf.txt"));
         while ((textLine = br3.readLine()) != null) {
-            listaImionF .add(textLine);
+            listaImionF.add(textLine);
         }
         BufferedReader br4 = new BufferedReader (new FileReader("spec.txt"));
         while ((textLine = br4.readLine()) != null) {
-            spec .add(textLine);
+            spec.add(textLine);
         }
         
         for (int i = 0; i<100;i++){
@@ -64,6 +64,7 @@ public class Generator {
         lekarze.get(i).setNazwisko(listaNazwisk, sex);
         lekarze.get(i).setSpecjalizacja(spec);
         lekarze.get(i).setId(i+1);
+        lekarze.get(i).setDataZatrudnienia();
         }
         
   

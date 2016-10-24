@@ -8,10 +8,12 @@ package generator;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 
 /**
@@ -23,7 +25,7 @@ public class Lekarz {
     private String specjalizacja;
     private String imie;
     private String nazwisko;
-    private Date dataZatrudnienia;
+    private LocalDate dataZatrudnienia;
     private Date dataZwolnienia;
     
     public void setId(int id) {
@@ -51,10 +53,17 @@ public class Lekarz {
      int los = rand.nextInt(specjalizacje.size());
      this.specjalizacja = specjalizacje.get(los); 
      }
+     
+     public void setDataZatrudnienia (){
+    long minDay = LocalDate.of(1990, 1, 1).toEpochDay();
+    long maxDay = LocalDate.of(2015, 12, 31).toEpochDay();
+    long randomDay = ThreadLocalRandom.current().nextLong(minDay, maxDay);
+     this.dataZatrudnienia = LocalDate.ofEpochDay(randomDay); 
+     }
     
     
     public void wypisz(PrintWriter zapis){
-    zapis.println(this.id + " " + this.imie + " " + this.nazwisko + " Spec " + this.specjalizacja); 
+    zapis.println(this.id + " " + this.imie + " " + this.nazwisko + " " + this.specjalizacja + " " + this.dataZatrudnienia); 
     }
     
     
