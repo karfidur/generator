@@ -65,6 +65,10 @@ public class Generator {
         lekarze.get(i).setSpecjalizacja(spec);
         lekarze.get(i).setId(i+1);
         lekarze.get(i).setDataZatrudnienia();
+        int zwolniony;
+        zwolniony = rand.nextInt(10);
+        if (zwolniony == 1)
+        lekarze.get(i).setDataZwolnienia();
         }
         
   

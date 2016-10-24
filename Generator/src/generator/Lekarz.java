@@ -26,7 +26,7 @@ public class Lekarz {
     private String imie;
     private String nazwisko;
     private LocalDate dataZatrudnienia;
-    private Date dataZwolnienia;
+    private LocalDate dataZwolnienia;
     
     public void setId(int id) {
     this.id = id;
@@ -61,9 +61,15 @@ public class Lekarz {
      this.dataZatrudnienia = LocalDate.ofEpochDay(randomDay); 
      }
     
+      public void setDataZwolnienia (){
+    long minDay = LocalDate.of(this.dataZatrudnienia.getYear(),this.dataZatrudnienia.getMonth(),this.dataZatrudnienia.getDayOfMonth()).toEpochDay();
+    long maxDay = LocalDate.of(2015, 12, 31).toEpochDay();
+    long randomDay = ThreadLocalRandom.current().nextLong(minDay, maxDay);
+     this.dataZwolnienia = LocalDate.ofEpochDay(randomDay); 
+     }
     
     public void wypisz(PrintWriter zapis){
-    zapis.println(this.id + " " + this.imie + " " + this.nazwisko + " " + this.specjalizacja + " " + this.dataZatrudnienia); 
+    zapis.println(this.id + " " + this.imie + " " + this.nazwisko + " " + this.specjalizacja + " " + this.dataZatrudnienia + " " + this.dataZwolnienia); 
     }
     
     
