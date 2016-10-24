@@ -28,21 +28,24 @@ public class Lekarz {
     private LocalDate dataZatrudnienia;
     private LocalDate dataZwolnienia;
     
+    private Integer sex;
+    
     public void setId(int id) {
     this.id = id;
 }
-    public void setImie(List<String> imiona) {
+    public void setImie(List<String> imiona, int sex) {
      Random rand = new Random();
      int los = rand.nextInt(imiona.size());
-     this.imie = imiona.get(los);  
+     this.imie = imiona.get(los);
+     this.sex = sex;
     }
     
-     public void setNazwisko(List<String> nazwiska, int sex) {
+     public void setNazwisko(List<String> nazwiska) {
      Random rand = new Random();
      int los = rand.nextInt(nazwiska.size());
      String randNazwisko = nazwiska.get(los);
      String sub = randNazwisko.substring(randNazwisko.length()-3);
-     if (sex == 0 || !sub.equals("ski") && !sub.equals("cki") && !sub.endsWith("zki"))
+     if (this.sex == 0 || !sub.equals("ski") && !sub.equals("cki") && !sub.endsWith("zki"))
      this.nazwisko = nazwiska.get(los);  
      else
      this.nazwisko = randNazwisko.substring(0,randNazwisko.length()- 1) + "a";

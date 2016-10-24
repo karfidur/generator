@@ -69,11 +69,11 @@ public class Generator {
             lekarze.add(new Lekarz());
             sex = rand.nextInt(2);
             if (sex == 0) {
-                lekarze.get(i).setImie(listaImionM);
+                lekarze.get(i).setImie(listaImionM, sex);
             } else {
-                lekarze.get(i).setImie(listaImionF);
+                lekarze.get(i).setImie(listaImionF, sex);
             }
-            lekarze.get(i).setNazwisko(listaNazwisk, sex);
+            lekarze.get(i).setNazwisko(listaNazwisk);
             lekarze.get(i).setSpecjalizacja(spec);
             lekarze.get(i).setId(i + 1);
             int zwolniony;
@@ -90,13 +90,19 @@ public class Generator {
             }
             }
             
-            
-            if (i == t0t1) {
+             if (i == t0t1) {
                 for (Lekarz l : lekarze) {
                     l.wypisz(zapist1);
                 }
                 zapist1.close();
             }
+             int losowanie;
+             losowanie = rand.nextInt(5);
+             if (losowanie == 1){
+                 losowanie = rand.nextInt(lekarze.size());
+                 lekarze.get(losowanie).setNazwisko(listaNazwisk);
+             }
+             
 
         }
 
