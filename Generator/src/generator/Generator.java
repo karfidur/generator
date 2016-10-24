@@ -13,6 +13,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Scanner;
 
 
 /**
@@ -33,6 +34,7 @@ public class Generator {
         
         String textLine;
         int sex;
+        Scanner in = new Scanner(System.in);
         Random rand = new Random();
       PrintWriter zapis = new PrintWriter("out.sql");
   
@@ -52,19 +54,21 @@ public class Generator {
         while ((textLine = br4.readLine()) != null) {
             spec.add(textLine);
         }
-        
-        for (int i = 0; i<100;i++){
+        System.out.println("Podaj liczbe lekarzy");
+        int lekarzeCount = in.nextInt();
+        System.out.println("Podaj rok rozpoczecia działalności");
+        int beginDate = in.nextInt();
+        for (int i = 0; i<lekarzeCount;i++){
         lekarze.add(new Lekarz());
         sex = rand.nextInt(2);
         if (sex == 0)
         lekarze.get(i).setImie(listaImionM); 
         else
         lekarze.get(i).setImie(listaImionF); 
-        
         lekarze.get(i).setNazwisko(listaNazwisk, sex);
         lekarze.get(i).setSpecjalizacja(spec);
         lekarze.get(i).setId(i+1);
-        lekarze.get(i).setDataZatrudnienia();
+        lekarze.get(i).setDataZatrudnienia(beginDate);
         int zwolniony;
         zwolniony = rand.nextInt(10);
         if (zwolniony == 1)

@@ -54,8 +54,8 @@ public class Lekarz {
      this.specjalizacja = specjalizacje.get(los); 
      }
      
-     public void setDataZatrudnienia (){
-    long minDay = LocalDate.of(1990, 1, 1).toEpochDay();
+     public void setDataZatrudnienia (int begin){
+    long minDay = LocalDate.of(begin, 1, 1).toEpochDay();
     long maxDay = LocalDate.of(2015, 12, 31).toEpochDay();
     long randomDay = ThreadLocalRandom.current().nextLong(minDay, maxDay);
      this.dataZatrudnienia = LocalDate.ofEpochDay(randomDay); 
