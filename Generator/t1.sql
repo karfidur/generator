@@ -1,67 +1,51 @@
-1 Maciej Wrobel Medycyna ratunkowa 2010-12-28 null
-2 Pawel Chmielewski Radioterapia onkologiczna 2008-04-05 null
-3 Anna Szymczak Choroby wewnetrzne 2006-10-16 null
-4 Lukasz Walczak Chirurgia szczekowo-twarzowa 2006-11-06 null
-5 Krzysztof Kowalski Chirurgia klatki piersiowej 2007-03-17 null
-6 Mariusz Jaworski Kardiochirurgia 2000-11-09 null
-7 Ryszard Walczak Neurochirurgia 2002-03-19 null
-8 Kazimierz Marciniak Anestezjologia i intensywna terapia 2010-08-16 null
-9 Malgorzata Wojciechowska Patomorfologia 2005-12-04 null
-10 Tadeusz Krol Chirurgia plastyczna 2006-11-17 null
-11 Jacek Czerwinski Neonatologia 2007-09-07 null
-12 Maria Gorska Psychiatria 2010-11-04 null
-13 Henryk Malinowski Dermatologia i wenerologia 2003-12-06 null
-14 Magdalena Mazurek Urologia 2008-09-04 2009-11-10
-15 Mariusz Sikora Audiologia i foniatria 2007-05-12 null
-16 Joanna Olszewska Chirurgia klatki piersiowej 2009-09-28 null
-17 Wieslawa Szewczyk Medycyna transportu 2005-01-06 2008-02-21
-18 Bozena Szymanska Patomorfologia 2005-11-04 null
-19 Joanna Walczak Neurochirurgia 2003-01-13 null
-20 Ryszard Kalinowski Mikrobiologia lekarska 2006-01-20 null
-21 Grazyna Jakubowska Dermatologia i wenerologia 2009-05-11 null
-22 Marian Sokolowski Epidemiologia 2008-06-16 null
-23 Beata Jaworska Okulistyka 2005-09-26 null
-24 Jaroslaw Glowacki Neurochirurgia 2003-01-05 null
-25 Marian Jablonski Psychiatria 2007-06-09 null
-26 Piotr Szulc Dermatologia i wenerologia 2006-03-12 null
-27 Anna Czerwinska Chirurgia klatki piersiowej 2008-06-09 null
-28 Stanislawa Jankowska Medycyna ratunkowa 2003-05-01 2010-09-13
-29 Danuta Adamska Radioterapia onkologiczna 2001-07-23 null
-30 Sebastian Kalinowski Medycyna pracy 2007-03-12 null
-31 Justyna Baran Medycyna nuklearna 2006-05-29 null
-32 Kazimierz Adamski Radiologia i diagnostyka obrazowa 2009-09-20 null
-33 Urszula Michalska Onkologia kliniczna 2010-10-18 null
-34 Robert Sawicki Medycyna sadowa 2009-06-05 null
-35 Jacek Malinowski Poloznictwo i ginekologia 2004-01-28 null
-36 Leszek Adamski Rehabilitacja medyczna 2010-01-30 null
-37 Magdalena Glowacka Psychiatria dzieci i mlodziezy 2005-11-18 null
-38 Grazyna Ostrowska Neonatologia 2007-01-03 null
-39 Karolina Sokolowska Mikrobiologia lekarska 2007-02-16 null
-40 Mieczyslaw Cieslak Patomorfologia 2007-02-01 null
-41 Lukasz Kucharski Chirurgia klatki piersiowej 2004-05-12 null
-42 Edyta Nowakowska Radioterapia onkologiczna 2008-02-03 null
-43 Krystyna Jankowska Epidemiologia 2000-10-25 null
-44 Teresa Mazurek Epidemiologia 2007-09-08 null
-45 Miroslaw Czarnecki Epidemiologia 2001-06-18 null
-46 Jakub Laskowski Neurochirurgia 2002-02-17 null
-47 Izabela Adamczyk Otorynolaryngologia 2006-01-05 null
-48 Janina Sawicka Onkologia kliniczna 2007-11-24 null
-49 Lukasz Brzezinski Psychiatria 2010-04-16 null
-50 Ewa Andrzejewska Chirurgia ogolna 2007-07-15 null
-51 Slawomir Nowicki Transfuzjologia kliniczna 2003-05-27 null
-52 Halina Ziolkowska Chirurgia szczekowo-twarzowa 2010-03-21 null
-53 Jozef Szewczyk Dermatologia i wenerologia 2004-06-08 null
-54 Andrzej Sobczak Chirurgia plastyczna 2002-09-01 null
-55 Katarzyna Kaczmarek Medycyna transportu 2005-05-20 null
-56 Damian Kaminski Chirurgia ogolna 2003-11-15 null
-57 Alicja Olszewska Medycyna rodzinna 2005-02-08 null
-58 Roman Marciniak Dermatologia i wenerologia 2007-11-30 null
-59 Waldemar Urbanski Radioterapia onkologiczna 2008-01-24 null
-60 Karol Piotrowski Chirurgia plastyczna 2006-10-04 null
-61 Tomasz Michalak Transfuzjologia kliniczna 2008-04-27 null
-62 Roman Czerwinski Neurologia 2010-10-06 2010-12-24
-63 Jozef Czarnecki Medycyna nuklearna 2006-09-18 null
-64 Helena Lis Otorynolaryngologia 2008-05-21 null
-65 Elzbieta Jaworska Urologia 2010-02-22 null
-66 Jan Dabrowski Zdrowie Publiczne 2003-10-30 null
-67 Agnieszka Zalewska Neurochirurgia 2001-01-05 null
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('1', 'Sebastian', 'Ziolkowski', 'Kardiologia', '1991-01-10', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('2', 'Jan', 'Stepien', 'Audiologia i foniatria', '2000-08-30', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('3', 'Slawomir', 'Nowakowski', 'Zdrowie Publiczne', '1990-07-03', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('4', 'Jadwiga', 'Jankowska', 'Patomorfologia', '2000-05-04', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('5', 'Anna', 'Dudek', 'Urologia', '1995-10-27', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('6', 'Mateusz', 'Ostrowski', 'Pediatria', '1995-06-21', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('7', 'Dariusz', 'Witkowski', 'Chirurgia ogolna', '1996-06-06', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('8', 'Joanna', 'Wilk', 'Psychiatria dzieci i mlodziezy', '1997-12-24', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('9', 'Karol', 'Majewski', 'Radioterapia onkologiczna', '1992-03-27', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('10', 'Roman', 'Dudek', 'Audiologia i foniatria', '1996-01-24', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('11', 'Dariusz', 'Ziolkowski', 'Choroby wewnetrzne', '1990-12-27', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('12', 'Przemyslaw', 'Majewski', 'Diagnostyka laboratoryjna', '1998-04-22', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('13', 'Karolina', 'Szymczak', 'Dermatologia i wenerologia', '1993-01-19', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('14', 'Mateusz', 'Wysocki', 'Psychiatria dzieci i mlodziezy', '2000-12-01', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('15', 'Sebastian', 'Wisniewski', 'Psychiatria dzieci i mlodziezy', '1999-01-25', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('16', 'Teresa', 'Mazurek', 'Chirurgia ogolna', '1992-11-01', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('17', 'Edyta', 'Mazurek', 'Mikrobiologia lekarska', '1997-07-07', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('18', 'Jadwiga', 'Kaminska', 'Dermatologia i wenerologia', '1991-02-19', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('19', 'Sylwia', 'Kucharska', 'Medycyna ratunkowa', '2000-12-11', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('20', 'Adam', 'Kubiak', 'Psychiatria', '1991-03-10', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('21', 'Janusz', 'Wisniewski', 'Dermatologia i wenerologia', '1992-10-05', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('22', 'Jadwiga', 'Glowacka', 'Neonatologia', '1997-03-27', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('23', 'Grazyna', 'Tomaszewska', 'Onkologia kliniczna', '1997-03-03', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('24', 'Jacek', 'Kozlowski', 'Okulistyka', '1994-12-28', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('25', 'Henryk', 'Dudek', 'Radiologia i diagnostyka obrazowa', '1997-10-22', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('26', 'Jan', 'Sikorski', 'Otorynolaryngologia', '1991-07-11', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('27', 'Sebastian', 'Nowakowski', 'Radioterapia onkologiczna', '1990-01-25', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('28', 'Stanislawa', 'Baranowska', 'Onkologia kliniczna', '1991-03-28', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('29', 'Katarzyna', 'Szymczak', 'Onkologia kliniczna', '1996-11-05', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('30', 'Monika', 'Kucharska', 'Patomorfologia', '1999-03-25', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('31', 'Mateusz', 'Baranowski', 'Patomorfologia', '1991-06-12', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('32', 'Marek', 'Przybylski', 'Urologia', '1996-03-01', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('33', 'Bozena', 'Wozniak', 'Anestezjologia i intensywna terapia', '1994-04-24', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('34', 'Aleksandra', 'Kalinowska', 'Medycyna transportu', '1996-12-24', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('35', 'Daniel', 'Krol', 'Kardiochirurgia', '1998-03-27', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('36', 'Slawomir', 'Andrzejewski', 'Anestezjologia i intensywna terapia', '1994-02-10', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('37', 'Anna', 'Krawczyk', 'Psychiatria', '1994-08-20', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('38', 'Danuta', 'Maciejewska', 'Radioterapia onkologiczna', '1992-10-26', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('39', 'Jacek', 'Kozlowski', 'Neonatologia', '1995-06-02', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('40', 'Genowefa', 'Majewska', 'Epidemiologia', '1990-07-18', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('41', 'Mariusz', 'Marciniak', 'Audiologia i foniatria', '1999-02-15', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('42', 'Wojciech', 'Rutkowski', 'Radiologia i diagnostyka obrazowa', '1997-07-14', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('43', 'Stefania', 'Zajac', 'Pediatria', '1998-12-05', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('44', 'Przemyslaw', 'Gorski', 'Chirurgia ogolna', '2000-05-19', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('45', 'Jaroslaw', 'Zielinski', 'Psychiatria dzieci i mlodziezy', '1996-08-05', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('46', 'Janina', 'Lewandowska', 'Urologia', '2000-09-07', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('47', 'Aleksandra', 'Wroblewska', 'Chirurgia szczekowo-twarzowa', '1990-05-08', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('48', 'Anna', 'Nowakowska', 'Chirurgia plastyczna', '1998-06-28', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('49', 'Dorota', 'Bak', 'Otorynolaryngologia', '1998-08-22', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('50', 'Henryk', 'Sawicki', 'Otorynolaryngologia', '1993-06-26', 'null')
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('51', 'Ewelina', 'Dabrowska', 'Mikrobiologia lekarska', '1998-01-04', 'null')

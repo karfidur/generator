@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
@@ -72,7 +71,7 @@ public class Lekarz {
      }
     
     public void wypisz(PrintWriter zapis){
-    zapis.println(this.id + " " + this.imie + " " + this.nazwisko + " " + this.specjalizacja + " " + this.dataZatrudnienia + " " + this.dataZwolnienia); 
+    zapis.println("insert into Lekarz (\"ID\", \"Imie\", \"Nazwisko\", \"Specjalizacja\", \"Data zatrudnienia\", \"Data zwolnienia\") values ('" + this.id + "', '" + this.imie + "', '" + this.nazwisko + "', '" + this.specjalizacja + "', '" + this.dataZatrudnienia + "', '" + this.dataZwolnienia +"')" );
     }
     
     

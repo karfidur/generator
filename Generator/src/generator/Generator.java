@@ -23,13 +23,14 @@ public class Generator {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
-        List<String> listaImionM = new ArrayList<String>();
-        List<String> listaImionF = new ArrayList<String>();
-        List<String> listaNazwisk = new ArrayList<String>();
-        List<String> spec = new ArrayList<String>();
-        List<Lekarz> lekarze = new ArrayList<Lekarz>();
+        List<String> listaImionM = new ArrayList<>();
+        List<String> listaImionF = new ArrayList<>();
+        List<String> listaNazwisk = new ArrayList<>();
+        List<String> spec = new ArrayList<>();
+        List<Lekarz> lekarze = new ArrayList<>();
 
         String textLine;
         int sex;
