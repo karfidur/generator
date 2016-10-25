@@ -1,100 +1,123 @@
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('1', 'Sebastian', 'Ziolkowski', 'Kardiologia', '1991-01-10', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('2', 'Jan', 'Stepien', 'Audiologia i foniatria', '2000-08-30', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('3', 'Slawomir', 'Chmielewski', 'Zdrowie Publiczne', '1990-07-03', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('4', 'Jadwiga', 'Jankowska', 'Patomorfologia', '2000-05-04', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('5', 'Anna', 'Dudek', 'Urologia', '1995-10-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('6', 'Mateusz', 'Ostrowski', 'Pediatria', '1995-06-21', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('7', 'Dariusz', 'Witkowski', 'Chirurgia ogolna', '1996-06-06', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('8', 'Joanna', 'Wilk', 'Psychiatria dzieci i mlodziezy', '1997-12-24', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('9', 'Karol', 'Majewski', 'Radioterapia onkologiczna', '1992-03-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('10', 'Roman', 'Dudek', 'Audiologia i foniatria', '1996-01-24', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('11', 'Dariusz', 'Ziolkowski', 'Choroby wewnetrzne', '1990-12-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('12', 'Przemyslaw', 'Majewski', 'Diagnostyka laboratoryjna', '1998-04-22', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('13', 'Karolina', 'Szymczak', 'Dermatologia i wenerologia', '1993-01-19', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('14', 'Mateusz', 'Wysocki', 'Psychiatria dzieci i mlodziezy', '2000-12-01', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('15', 'Sebastian', 'Wisniewski', 'Psychiatria dzieci i mlodziezy', '1999-01-25', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('16', 'Teresa', 'Mazurek', 'Chirurgia ogolna', '1992-11-01', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('17', 'Edyta', 'Mazurek', 'Mikrobiologia lekarska', '1997-07-07', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('18', 'Jadwiga', 'Kaminska', 'Dermatologia i wenerologia', '1991-02-19', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('19', 'Sylwia', 'Kucharska', 'Medycyna ratunkowa', '2000-12-11', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('20', 'Adam', 'Kubiak', 'Psychiatria', '1991-03-10', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('21', 'Janusz', 'Wisniewski', 'Dermatologia i wenerologia', '1992-10-05', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('22', 'Jadwiga', 'Glowacka', 'Neonatologia', '1997-03-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('23', 'Grazyna', 'Tomaszewska', 'Onkologia kliniczna', '1997-03-03', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('24', 'Jacek', 'Kozlowski', 'Okulistyka', '1994-12-28', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('25', 'Henryk', 'Glowacki', 'Radiologia i diagnostyka obrazowa', '1997-10-22', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('26', 'Jan', 'Sikorski', 'Otorynolaryngologia', '1991-07-11', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('27', 'Sebastian', 'Nowakowski', 'Radioterapia onkologiczna', '1990-01-25', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('28', 'Stanislawa', 'Brzezinska', 'Onkologia kliniczna', '1991-03-28', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('29', 'Katarzyna', 'Witkowska', 'Onkologia kliniczna', '1996-11-05', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('30', 'Monika', 'Kucharska', 'Patomorfologia', '1999-03-25', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('31', 'Mateusz', 'Baranowski', 'Patomorfologia', '1991-06-12', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('32', 'Marek', 'Przybylski', 'Urologia', '1996-03-01', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('33', 'Bozena', 'Wozniak', 'Anestezjologia i intensywna terapia', '1994-04-24', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('34', 'Aleksandra', 'Kalinowska', 'Medycyna transportu', '1996-12-24', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('35', 'Daniel', 'Krol', 'Kardiochirurgia', '1998-03-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('36', 'Slawomir', 'Andrzejewski', 'Anestezjologia i intensywna terapia', '1994-02-10', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('37', 'Anna', 'Krawczyk', 'Psychiatria', '1994-08-20', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('38', 'Danuta', 'Maciejewska', 'Radioterapia onkologiczna', '1992-10-26', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('39', 'Jacek', 'Kozlowski', 'Neonatologia', '1995-06-02', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('40', 'Genowefa', 'Majewska', 'Epidemiologia', '1990-07-18', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('41', 'Mariusz', 'Kucharski', 'Audiologia i foniatria', '1999-02-15', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('42', 'Wojciech', 'Rutkowski', 'Radiologia i diagnostyka obrazowa', '1997-07-14', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('43', 'Stefania', 'Zajac', 'Pediatria', '1998-12-05', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('44', 'Przemyslaw', 'Gorski', 'Chirurgia ogolna', '2000-05-19', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('45', 'Jaroslaw', 'Nowak', 'Psychiatria dzieci i mlodziezy', '1996-08-05', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('46', 'Janina', 'Lewandowska', 'Urologia', '2000-09-07', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('47', 'Aleksandra', 'Wroblewska', 'Chirurgia szczekowo-twarzowa', '1990-05-08', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('48', 'Anna', 'Nowakowska', 'Chirurgia plastyczna', '1998-06-28', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('49', 'Dorota', 'Bak', 'Otorynolaryngologia', '1998-08-22', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('50', 'Henryk', 'Sawicki', 'Otorynolaryngologia', '1993-06-26', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('51', 'Ewelina', 'Szymczak', 'Mikrobiologia lekarska', '1998-01-04', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('52', 'Barbara', 'Walczak', 'Urologia', '2009-12-16', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('53', 'Ewa', 'Jakubowska', 'Medycyna transportu', '2008-08-22', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('54', 'Tadeusz', 'Kazmierczak', 'Chirurgia dziecieca', '2007-09-05', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('55', 'Tomasz', 'Andrzejewski', 'Kardiochirurgia', '2002-01-01', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('56', 'Leszek', 'Lis', 'Medycyna pracy', '2005-07-17', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('57', 'Marta', 'Dabrowska', 'Chirurgia klatki piersiowej', '2005-08-24', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('58', 'Marzena', 'Kolodziej', 'Medycyna sadowa', '2000-08-04', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('59', 'Pawel', 'Gorski', 'Choroby zakazne', '2005-04-26', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('60', 'Zdzislaw', 'Wrobel', 'Onkologia kliniczna', '2003-09-06', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('61', 'Lukasz', 'Kaminski', 'Kardiologia', '2002-11-07', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('62', 'Mariusz', 'Wlodarczyk', 'Mikrobiologia lekarska', '2000-10-31', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('63', 'Joanna', 'Zalewska', 'Chirurgia ogolna', '2005-04-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('64', 'Jolanta', 'Krol', 'Rehabilitacja medyczna', '2003-05-01', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('65', 'Pawel', 'Kaminski', 'Rehabilitacja medyczna', '2009-02-02', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('66', 'Przemyslaw', 'Dudek', 'Onkologia kliniczna', '2005-07-06', '2008-05-28')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('67', 'Izabela', 'Wlodarczyk', 'Patomorfologia', '2000-01-24', '2001-03-10')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('68', 'Halina', 'Mazurek', 'Neurochirurgia', '2006-01-13', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('69', 'Czeslaw', 'Cieslak', 'Pediatria', '2000-05-03', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('70', 'Patrycja', 'Nowicka', 'Chirurgia plastyczna', '2009-03-13', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('71', 'Jolanta', 'Tomaszewska', 'Medycyna rodzinna', '2006-10-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('72', 'Ewa', 'Baran', 'Kardiochirurgia', '2001-01-02', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('73', 'Jacek', 'Pietrzak', 'Medycyna ratunkowa', '2004-05-13', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('74', 'Elzbieta', 'Baranowska', 'Radiologia i diagnostyka obrazowa', '2003-11-21', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('75', 'Dariusz', 'Kwiatkowski', 'Chirurgia szczekowo-twarzowa', '2004-12-16', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('76', 'Karolina', 'Baran', 'Urologia', '2001-11-09', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('77', 'Wojciech', 'Laskowski', 'Neurologia', '2001-10-06', '2001-10-31')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('78', 'Karol', 'Mazurek', 'Ortopedia i traumatologia narzadu ruchu', '2004-03-03', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('79', 'Mateusz', 'Lewandowski', 'Genetyka kliniczna', '2003-12-08', '2008-10-06')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('80', 'Daniel', 'Wisniewski', 'Genetyka kliniczna', '2001-07-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('81', 'Pawel', 'Kozlowski', 'Chirurgia plastyczna', '2002-03-09', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('82', 'Grazyna', 'Mazurek', 'Medycyna rodzinna', '2005-09-04', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('83', 'Waldemar', 'Lewandowski', 'Anestezjologia i intensywna terapia', '2002-01-11', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('84', 'Karolina', 'Kaczmarek', 'Pediatria', '2000-08-08', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('85', 'Jacek', 'Jankowski', 'Medycyna nuklearna', '2000-06-30', '2009-06-04')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('86', 'Wieslaw', 'Kozlowski', 'Chirurgia dziecieca', '2010-05-12', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('87', 'Anna', 'Sikorska', 'Audiologia i foniatria', '2000-05-21', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('88', 'Katarzyna', 'Majewska', 'Chirurgia ogolna', '2009-06-26', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('89', 'Michal', 'Ostrowski', 'Neurochirurgia', '2005-09-20', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('90', 'Marzena', 'Wlodarczyk', 'Medycyna transportu', '2008-07-06', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('91', 'Dorota', 'Wrobel', 'Urologia', '2007-11-10', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('92', 'Mariusz', 'Glowacki', 'Otorynolaryngologia', '2006-05-01', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('93', 'Bozena', 'Nowak', 'Medycyna ratunkowa', '2001-07-19', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('94', 'Katarzyna', 'Wisniewska', 'Onkologia kliniczna', '2001-09-21', '2007-01-03')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('95', 'Tomasz', 'Czerwinski', 'Radioterapia onkologiczna', '2008-10-11', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('96', 'Wieslawa', 'Szewczyk', 'Zdrowie Publiczne', '2001-02-09', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('97', 'Kazimiera', 'Pietrzak', 'Medycyna nuklearna', '2003-02-24', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('98', 'Agnieszka', 'Czarnecka', 'Radiologia i diagnostyka obrazowa', '2002-11-18', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('99', 'Helena', 'Jaworska', 'Kardiologia', '2004-06-27', 'null')
-insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data zatrudnienia", "Data zwolnienia") values ('100', 'Zdzislaw', 'Nowak', 'Psychiatria', '2005-05-19', '2009-11-12')
+update Lekarz set "Nazwisko" = 'Urbanska', where "ID" = '10';
+update Lekarz set "Nazwisko" = 'Dabrowski', where "ID" = '22';
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('27', 'Mateusz', 'Makowski', 'Radioterapia onkologiczna', '2004-04-26', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('28', 'Robert', 'Piotrowski', 'Choroby wewnetrzne', '2003-04-25', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('29', 'Grazyna', 'Tomaszewska', 'Poloznictwo i ginekologia', '2002-09-05', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('30', 'Piotr', 'Stepien', 'Zdrowie Publiczne', '2001-07-16', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('31', 'Sylwia', 'Jaworska', 'Transfuzjologia kliniczna', '2007-06-05', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('32', 'Katarzyna', 'Glowacka', 'Psychiatria dzieci i mlodziezy', '2009-09-03', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('33', 'Czeslaw', 'Majewski', 'Neonatologia', '2010-11-27', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('34', 'Czeslaw', 'Czarnecki', 'Neonatologia', '2008-02-17', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('35', 'Jerzy', 'Dabrowski', 'Audiologia i foniatria', '2010-03-09', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('36', 'Tadeusz', 'Sawicki', 'Transfuzjologia kliniczna', '2000-01-17', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('37', 'Ewa', 'Malinowska', 'Chirurgia dziecieca', '2009-02-14', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('38', 'Jan', 'Gorski', 'Pediatria', '2010-07-24', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('39', 'Wieslawa', 'Malinowska', 'Radioterapia onkologiczna', '2001-01-23', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('40', 'Agata', 'Borkowska', 'Chirurgia dziecieca', '2007-12-08', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('41', 'Kazimiera', 'Baranowska', 'Genetyka kliniczna', '2005-01-03', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('42', 'Grzegorz', 'Pawlowski', 'Epidemiologia', '2004-10-18', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('43', 'Roman', 'Gajewski', 'Dermatologia i wenerologia', '2002-10-10', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('44', 'Robert', 'Przybylski', 'Genetyka kliniczna', '2003-11-05', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('45', 'Artur', 'Marciniak', 'Zdrowie Publiczne', '2010-02-10', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('46', 'Tadeusz', 'Piotrowski', 'Medycyna nuklearna', '2006-02-21', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('47', 'Ewelina', 'Walczak', 'Mikrobiologia lekarska', '2000-03-25', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('48', 'Magdalena', 'Urbanska', 'Kardiochirurgia', '2007-06-24', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('49', 'Genowefa', 'Andrzejewska', 'Zdrowie Publiczne', '2004-09-30', null);
+insert into Lekarz ("ID", "Imie", "Nazwisko", "Specjalizacja", "Data_zatrudnienia", "Data_zwolnienia") values ('50', 'Marek', 'Witkowski', 'Choroby wewnetrzne', '2007-08-02', '2010-04-15');
+update Pielegniarka set "Nazwisko" = 'Szewczyk', where "ID" = '19';
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('27', 'Aleksandra', 'Kazmierczak', '2009-11-02', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('28', 'Bozena', 'Zajac', '2003-07-29', '2009-02-25');
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('29', 'Sylwia', 'Borkowska', '2002-10-15', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('30', 'Agata', 'Ostrowska', '2001-06-20', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('31', 'Marianna', 'Wasilewska', '2010-08-28', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('32', 'Marta', 'Czarnecka', '2003-05-24', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('33', 'Anna', 'Gorska', '2000-06-15', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('34', 'Renata', 'Glowacka', '2007-07-16', '2007-09-27');
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('35', 'Karolina', 'Jankowska', '2008-10-24', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('36', 'Agata', 'Zalewska', '2010-06-03', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('37', 'Natalia', 'Majewska', '2007-09-04', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('38', 'Jadwiga', 'Wlodarczyk', '2006-05-29', '2009-01-21');
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('39', 'Wieslawa', 'Kazmierczak', '2006-02-01', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('40', 'Wieslawa', 'Majewska', '2005-06-26', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('41', 'Ewelina', 'Sawicka', '2010-08-07', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('42', 'Maria', 'Nowicka', '2001-05-18', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('43', 'Helena', 'Dudek', '2000-02-15', '2008-12-08');
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('44', 'Stanislawa', 'Sobczak', '2009-09-08', '2010-01-10');
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('45', 'Stefania', 'Brzezinska', '2005-11-11', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('46', 'Stefania', 'Wysocka', '2004-11-16', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('47', 'Iwona', 'Zajac', '2004-08-18', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('48', 'Genowefa', 'Pietrzak', '2000-03-19', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('49', 'Kazimiera', 'Jasinska', '2007-07-12', null);
+insert into Pielegniarka ("ID", "Imie", "Nazwisko", "Data zatrudnienia", "Data zwolnienia") values ('50', 'Irena', 'Szewczyk', '2004-08-02', null);
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('53052291821', 'Wojciech', 'Krol', '1953-05-22');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('11033026853', 'Teresa', 'Wysocka', '1911-03-30');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('49061026607', 'Krzysztof', 'Jankowski', '1949-06-10');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('01032833402', 'Mariusz', 'Kucharski', '1901-03-28');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('79092486617', 'Janina', 'Wieczorek', '1979-09-24');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('13030259111', 'Janina', 'Zalewska', '1913-03-02');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('48101384853', 'Danuta', 'Kozlowska', '1948-10-13');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('36022559178', 'Alicja', 'Rutkowska', '1936-02-25');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('51022571361', 'Patrycja', 'Szulc', '1951-02-25');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('57083199664', 'Waldemar', 'Wysocki', '1957-08-31');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('36102461791', 'Dorota', 'Bak', '1936-10-24');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('60031878326', 'Genowefa', 'Wozniak', '1960-03-18');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('27111597640', 'Robert', 'Kaczmarek', '1927-11-15');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('82122076823', 'Mieczyslaw', 'Sokolowski', '1982-12-20');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('02081086008', 'Marian', 'Wasilewski', '1902-08-10');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('17090347677', 'Michal', 'Gorski', '1917-09-03');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('29100516105', 'Jan', 'Mazur', '1929-10-05');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('15020968722', 'Marek', 'Jablonski', '1915-02-09');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('74120825479', 'Irena', 'Lewandowska', '1974-12-08');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('57010815443', 'Krzysztof', 'Makowski', '1957-01-08');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('87091393066', 'Zdzislaw', 'Kalinowski', '1987-09-13');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('35082111326', 'Joanna', 'Jakubowska', '1935-08-21');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('09021719884', 'Barbara', 'Maciejewska', '2009-02-17');
+insert into Pacjent ("Pesel", "Imie", "Nazwisko", "Data_urodzenia") values ('44111144932', 'Wladyslaw', 'Adamczyk', '1944-11-11');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('53', '29', '2007-05-29', '2008-05-22');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('54', '39', '2006-04-27', '2010-11-04');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('55', '35', '2005-10-07', '2006-02-25');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('56', '48', '2000-01-02', '2007-11-17');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('57', '41', '2009-06-25', '2010-11-17');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('58', '38', '2009-09-10', '2010-09-06');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('59', '49', '2008-08-10', '2010-04-18');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('60', '12', '2004-04-06', '2007-09-17');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('61', '20', '2007-12-22', '2009-12-01');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('62', '33', '2004-03-13', '2004-09-10');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('63', '37', '2007-07-22', '2008-05-27');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('64', '46', '2001-06-03', '2005-04-28');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('65', '9', '2000-07-18', '2009-04-25');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('66', '4', '2009-04-28', '2009-12-07');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('67', '32', '2010-06-14', '2010-08-11');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('68', '4', '2001-09-07', '2006-07-23');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('69', '37', '2010-03-16', '2010-12-08');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('70', '47', '2001-03-12', '2004-01-20');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('71', '5', '2002-09-01', '2010-02-26');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('72', '27', '2006-06-08', '2007-05-17');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('73', '49', '2005-01-21', '2010-06-30');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('74', '4', '2004-04-18', '2004-09-03');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('75', '21', '2010-09-03', '2010-10-17');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('76', '46', '2009-02-03', '2010-03-30');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('77', '22', '2002-11-10', '2004-09-07');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('78', '28', '2009-03-05', '2010-05-17');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('79', '42', '2010-10-23', '2010-11-09');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('80', '8', '2007-12-09', '2009-07-01');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('81', '20', '2002-04-25', '2010-11-08');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('82', '28', '2009-02-19', '2009-03-19');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('83', '16', '2000-09-30', '2005-06-08');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('84', '34', '2007-08-14', '2010-04-20');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('85', '1', '2005-02-26', '2010-04-01');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('86', '14', '2004-08-10', '2008-12-04');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('87', '5', '2004-10-22', '2005-01-22');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('88', '33', '2009-02-13', '2010-03-30');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('89', '12', '2005-12-31', '2010-03-19');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('90', '50', '2010-05-08', '2010-09-26');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('91', '30', '2001-05-08', '2002-06-07');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('92', '33', '2000-03-29', '2002-10-07');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('93', '50', '2008-02-14', '2010-12-29');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('94', '5', '2000-09-06', '2005-09-29');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('95', '14', '2001-09-25', '2006-05-30');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('96', '13', '2008-05-09', '2009-10-06');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('97', '29', '2000-07-02', '2010-08-09');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('98', '22', '2009-09-13', '2009-12-07');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('99', '20', '2004-09-20', '2007-10-18');
+insert into Pobyt ("ID", "ID_pacjenta", "Data_przyjecia", "Data_wypisania") values ('100', '19', '2003-05-03', '2009-11-15');

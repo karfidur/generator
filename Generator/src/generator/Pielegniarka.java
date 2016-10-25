@@ -5,11 +5,8 @@
  */
 package generator;
 
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
@@ -18,25 +15,23 @@ import java.util.concurrent.ThreadLocalRandom;
  *
  * @author MSI
  */
-public class Lekarz {
+public class Pielegniarka {
 
     private Integer id;
-    private String specjalizacja;
     private String imie;
     private String nazwisko;
     private LocalDate dataZatrudnienia;
     private LocalDate dataZwolnienia;
 
-    private Integer wpisany = 0;
-    private Integer sex;
+    private Integer sex = 1;
     private Integer edited = 0;
+    private Integer wpisany = 0;
 
     public void setId(int id) {
         this.id = id;
     }
     
-    
-    public void setWpisany() {
+     public void setWpisany() {
         this.wpisany = 1;
     }
 
@@ -44,7 +39,7 @@ public class Lekarz {
         Random rand = new Random();
         int los = rand.nextInt(imiona.size());
         this.imie = imiona.get(los);
-        this.sex = sex;
+
     }
 
     public void setNazwisko(List<String> nazwiska) {
@@ -57,12 +52,6 @@ public class Lekarz {
         } else {
             this.nazwisko = randNazwisko.substring(0, randNazwisko.length() - 1) + "a";
         }
-    }
-
-    public void setSpecjalizacja(List<String> specjalizacje) {
-        Random rand = new Random();
-        int los = rand.nextInt(specjalizacje.size());
-        this.specjalizacja = specjalizacje.get(los);
     }
 
     public void setDataZatrudnienia(int begin, int end) {
@@ -81,12 +70,13 @@ public class Lekarz {
 
     public void wypisz(PrintWriter zapis) {
         if (this.edited == 0) {
-            if (this.dataZwolnienia != null)
-            zapis.println("insert into Lekarz (\"ID\", \"Imie\", \"Nazwisko\", \"Specjalizacja\", \"Data_zatrudnienia\", \"Data_zwolnienia\") values ('" + this.id + "', '" + this.imie + "', '" + this.nazwisko + "', '" + this.specjalizacja + "', '" + this.dataZatrudnienia + "', '" + this.dataZwolnienia + "');");
-            else
-            zapis.println("insert into Lekarz (\"ID\", \"Imie\", \"Nazwisko\", \"Specjalizacja\", \"Data_zatrudnienia\", \"Data_zwolnienia\") values ('" + this.id + "', '" + this.imie + "', '" + this.nazwisko + "', '" + this.specjalizacja + "', '" + this.dataZatrudnienia + "', " + this.dataZwolnienia + ");");
+            if (this.dataZwolnienia != null) {
+                zapis.println("insert into Pielegniarka (\"ID\", \"Imie\", \"Nazwisko\", \"Data zatrudnienia\", \"Data zwolnienia\") values ('" + this.id + "', '" + this.imie + "', '" + this.nazwisko + "', '" + this.dataZatrudnienia + "', '" + this.dataZwolnienia + "');");
+            } else {
+                zapis.println("insert into Pielegniarka (\"ID\", \"Imie\", \"Nazwisko\", \"Data zatrudnienia\", \"Data zwolnienia\") values ('" + this.id + "', '" + this.imie + "', '" + this.nazwisko + "', '" + this.dataZatrudnienia + "', " + this.dataZwolnienia + ");");
+            }
         } else {
-            zapis.println("update Lekarz set \"Nazwisko\" = '" + this.nazwisko + "', where \"ID\" = '" + this.id + "';");
+            zapis.println("update Pielegniarka set \"Nazwisko\" = '" + this.nazwisko + "', where \"ID\" = '" + this.id + "';");
         }
     }
 
@@ -121,4 +111,5 @@ public class Lekarz {
      public int getWpisany() {
         return this.wpisany;
     }
+
 }
