@@ -55,7 +55,7 @@ public class Pobyt {
         return this.wpisany;
     }
      
-     public int getPacjentId() {
+     public long getPacjentId() {
         return this.pacjentId;
     }
 }

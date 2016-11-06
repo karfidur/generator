@@ -44,7 +44,7 @@ public class Generator {
         int t1counter = 0;
         int t2counter = 0;
         int t1lekarz = 0;
-        int t2lekarz = 0;
+        int t1piele = 0;
         int t1lekarzcounter = 0;
         Scanner in = new Scanner(System.in);
         Random rand = new Random();
@@ -54,6 +54,11 @@ public class Generator {
         PrintWriter zapis4 = new PrintWriter("chorobypobytt2.bulk");
         PrintWriter zapis5 = new PrintWriter("zleceniepodaniat1.bulk");
         PrintWriter zapis6 = new PrintWriter("zleceniepodaniat2.bulk");
+        PrintWriter zapis7 = new PrintWriter("dawkapodaniat1.bulk");
+        PrintWriter zapis8 = new PrintWriter("dawkapodaniat2.bulk");
+        PrintWriter zapis9 = new PrintWriter("podaniet1.bulk");
+        PrintWriter zapis10 = new PrintWriter("podaniet2.bulk");
+        
         
         
 
@@ -144,7 +149,7 @@ public class Generator {
             }
             if (i > t0t1) {
                 int losowanie;
-                losowanie = rand.nextInt(10);
+                losowanie = rand.nextInt(lekarzeCount/10);
                 if (losowanie == 1) {
                     losowanie = rand.nextInt(t0t1);
                     lekarze.get(losowanie).setEdit();
@@ -152,8 +157,10 @@ public class Generator {
                 }
 
             }
+            
 
         }
+        
         System.out.println("Podaj liczbe pielegniarek");
         int pielegniarkiCount = in.nextInt();
         t0t1 = (int) (((float) (t1 - beginDate) / (float) (t2 - beginDate)) * pielegniarkiCount);
@@ -178,6 +185,7 @@ public class Generator {
 
             if (i == t0t1) {
                 for (Pielegniarka p : pielegniarki) {
+                    t1piele++;
                     p.wypisz(zapist1);
                     p.setWpisany();
                 }
@@ -195,7 +203,14 @@ public class Generator {
             }
 
         }
-    
+        
+    for (int i = 0; i < listaleki.size() - 1; i++) {
+            leki.add(new Lek());
+            {
+                leki.get(i).setId(leki.size());
+                leki.get(i).setNazwa(listaleki);
+            }
+    }
         
         System.out.println("Podaj liczbe pacjentow");
         int pacjenciCount = in.nextInt();
@@ -210,9 +225,9 @@ public class Generator {
             }
             pacjenci.get(i).setNazwisko(listaNazwisk);
              if (i <= t0t1)
-            pacjenci.get(i).setDataUrodzenia(1900, t1);
+            pacjenci.get(i).setDataUrodzenia(beginDate-100, t1);
              else 
-            pacjenci.get(i).setDataUrodzenia(1900, t2);
+            pacjenci.get(i).setDataUrodzenia(beginDate-100, t2);
             pacjenci.get(i).setPesel();
            
 
@@ -238,6 +253,8 @@ public class Generator {
              }
              
              
+             
+             
                 for (int z = 0; z < pobyty.size() * 2; z++) {
                     t1counter++;
                     zapis3.println(z + 1 + "|" + (rand.nextInt(choroby.size()) + 1) + "|" + (rand.nextInt(pobyty.size()) + 1));
@@ -246,6 +263,8 @@ public class Generator {
                  for (int z = 0; z < pobyty.size() * 2; z++) {
                      t1lekarzcounter++;
                     zapis5.println(z + 1 + "|" + (rand.nextInt(pobyty.size()) + 1) + "|" + (rand.nextInt(t1lekarz) + 1));
+                    zapis7.println(z + 1 + "|" + (rand.nextInt(pobyty.size()*2) + 1) + "|" + (rand.nextInt(leki.size()) + 1) + "|" + (rand.nextInt(10)));
+                    zapis9.println(z + 1 + "|" + (rand.nextInt(pobyty.size()) + 1) + "|" + (rand.nextInt(t1piele) + 1));
                 }
 
 
@@ -254,14 +273,9 @@ public class Generator {
 
         }
         
-        for (int i = 0; i < listaleki.size() - 1; i++) {
-            leki.add(new Lek());
-            {
-                leki.get(i).setId(leki.size());
-                leki.get(i).setNazwa(listaleki);
-            }
+        
             
-        }
+     
          
         
         for (Lek l : leki) {
@@ -311,8 +325,9 @@ public class Generator {
             p.wypisz(zapist2);
         }
         for (int z = t1lekarzcounter; z < pobyty.size() * 2; z++) {
-                     t1lekarzcounter++;
                     zapis6.println(z + 1 + "|" + ((rand.nextInt(t2counter)) + (pobyty.size()-t2counter)) + "|" + (rand.nextInt(lekarze.size()) + 1));
+                    zapis8.println(z + 1 + "|" + ((rand.nextInt(pobyty.size() * 2 - t1lekarzcounter)) + t1lekarzcounter) + "|" + (rand.nextInt(leki.size()) + 1) + "|" + (rand.nextInt(10)));
+                    zapis10.println(z + 1 + "|" + ((rand.nextInt(t2counter)) + (pobyty.size()-t2counter)) + "|" + (rand.nextInt(pielegniarki.size()) + 1));
                 }
         
          for (int z = t1counter; z < pobyty.size() * 2; z++) {
@@ -324,6 +339,10 @@ public class Generator {
         zapis4.close();
         zapis5.close();
         zapis6.close();
+        zapis7.close();
+        zapis8.close();
+        zapis9.close();
+        zapis10.close();
 
         // TODO code application logic here
     }
